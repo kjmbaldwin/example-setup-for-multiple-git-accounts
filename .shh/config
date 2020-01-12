@@ -1,0 +1,15 @@
+Host *
+   UseKeychain yes
+
+# Other account
+Host github.com
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_rsa
+   
+# Personal account,
+Host gitlab.workserver.com
+   HostName gitlab.workserver.com
+   User git
+   IdentityFile ~/.ssh/id_rsa_work
+   
